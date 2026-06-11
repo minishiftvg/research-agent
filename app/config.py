@@ -1,6 +1,6 @@
 # Configurazione centralizzata 
 # app/config.py
-#
+# Grossi Vitaliano
 # Gestione centralizzata della configurazione.
 # Tutti i parametri dell'applicazione vengono letti da qui.
 # Modificare un parametro qui lo cambia in tutta l'app.
