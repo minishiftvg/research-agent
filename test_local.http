@@ -1,1 +1,30 @@
 ### Test VSCode REST Client 
+### Health check
+GET https://ironforsale2010.pythonanywhere.com/health
+
+### Test ricerca semplice
+POST https://ironforsale2010.pythonanywhere.com/research
+Content-Type: application/json
+X-Webhook-Secret: test123
+
+{
+  "message": "energia solare"
+}
+
+### Test ricerca complessa
+POST https://ironforsale2010.pythonanywhere.com/research
+Content-Type: application/json
+X-Webhook-Secret: test123
+
+{
+  "message": "intelligenza artificiale nel settore medico"
+}
+
+### Test webhook Make.com
+POST https://ironforsale2010.pythonanywhere.com/webhook/make
+Content-Type: application/json
+X-Webhook-Secret: test123
+
+{
+  "message": "blockchain e criptovalute"
+}
