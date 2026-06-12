@@ -1,4 +1,3 @@
-### Test VSCode REST Client 
 ### Health check
 GET https://ironforsale2010.pythonanywhere.com/health
 
@@ -20,10 +19,12 @@ X-Webhook-Secret: Leonardo2026!
   "message": "intelligenza artificiale nel settore medico"
 }
 
+
 ### Test webhook Make.com
 POST https://ironforsale2010.pythonanywhere.com/webhook/make
 Content-Type: application/json
 X-Webhook-Secret: Leonardo2026!
+
 
 {
   "message": "blockchain e criptovalute"
