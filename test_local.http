@@ -2,7 +2,7 @@
 GET https://ironforsale2010.pythonanywhere.com/health
 
 ### Test ricerca semplice
-POST https://ironforsale2010.pythonanywhere.com/research
+POST https://ironforsale2010.pythonanywhere.com/agent
 Content-Type: application/json
 X-Webhook-Secret: Leonardo2026!
 
@@ -11,7 +11,7 @@ X-Webhook-Secret: Leonardo2026!
 }
 
 ### Test ricerca complessa
-POST https://ironforsale2010.pythonanywhere.com/research
+POST https://ironforsale2010.pythonanywhere.com/agent
 Content-Type: application/json
 X-Webhook-Secret: Leonardo2026!
 
